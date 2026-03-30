@@ -161,6 +161,12 @@ actor, and note. This provides a full audit trail persisted in `cmdb.json`.
 
 ---
 
+## License
+
+[MIT](LICENSE)
+
+---
+
 ## File structure
 
 ```
@@ -171,7 +177,6 @@ actor, and note. This provides a full audit trail persisted in `cmdb.json`.
 ├── prompts/
 │   └── system_prompt.txt           # IT manager persona and decision guidelines
 ├── requirements.txt
-├── .env.example
-├── .env
+├── .env.example                    # Template — copy to .env and fill in values
 └── README.md
 ```

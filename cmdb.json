@@ -8,19 +8,12 @@
       "serial": "DL5540-A9X21",
       "purchased": "2022-03-15",
       "warranty_expires": "2025-03-15",
-      "status": "checked_out",
-      "assigned_to": "Alice Chen",
-      "employee_id": "EMP-0201",
+      "status": "available",
+      "assigned_to": null,
+      "employee_id": null,
       "location": "IT Store Room A",
       "repair_notes": null,
-      "history": [
-        {
-          "action": "checked_out",
-          "date": "2026-03-30",
-          "by": "EMP-0201",
-          "note": "Checked out to Alice Chen"
-        }
-      ]
+      "history": []
     },
     "LT-1002": {
       "asset_id": "LT-1002",
@@ -36,12 +29,7 @@
       "location": "Engineering Floor 2",
       "repair_notes": null,
       "history": [
-        {
-          "action": "checked_out",
-          "date": "2022-04-01",
-          "by": "EMP-0042",
-          "note": "Initial assignment"
-        }
+        {"action": "checked_out", "date": "2022-04-01", "by": "EMP-0042", "note": "Initial assignment"}
       ]
     },
     "LT-1003": {
@@ -58,18 +46,8 @@
       "location": "IT Repair Bench",
       "repair_notes": "Keyboard unresponsive on left side. Awaiting parts.",
       "history": [
-        {
-          "action": "checked_out",
-          "date": "2023-07-01",
-          "by": "EMP-0078",
-          "note": "Initial assignment"
-        },
-        {
-          "action": "flagged_for_repair",
-          "date": "2025-01-10",
-          "by": "EMP-0078",
-          "note": "Keyboard unresponsive on left side"
-        }
+        {"action": "checked_out", "date": "2023-07-01", "by": "EMP-0078", "note": "Initial assignment"},
+        {"action": "flagged_for_repair", "date": "2025-01-10", "by": "EMP-0078", "note": "Keyboard unresponsive on left side"}
       ]
     },
     "LT-1004": {
@@ -86,24 +64,9 @@
       "location": "IT Disposal Bin",
       "repair_notes": "Battery swollen. Unsafe to use.",
       "history": [
-        {
-          "action": "checked_out",
-          "date": "2021-02-01",
-          "by": "EMP-0011",
-          "note": "Initial assignment"
-        },
-        {
-          "action": "checked_in",
-          "date": "2024-02-01",
-          "by": "EMP-0011",
-          "note": "Returned at contract end"
-        },
-        {
-          "action": "retired",
-          "date": "2024-03-01",
-          "by": "IT-ADMIN",
-          "note": "Battery swollen. Unsafe to use."
-        }
+        {"action": "checked_out", "date": "2021-02-01", "by": "EMP-0011", "note": "Initial assignment"},
+        {"action": "checked_in", "date": "2024-02-01", "by": "EMP-0011", "note": "Returned at contract end"},
+        {"action": "retired", "date": "2024-03-01", "by": "IT-ADMIN", "note": "Battery swollen. Unsafe to use."}
       ]
     },
     "MN-2001": {
@@ -135,12 +98,7 @@
       "location": "Engineering Floor 2",
       "repair_notes": null,
       "history": [
-        {
-          "action": "checked_out",
-          "date": "2023-02-01",
-          "by": "EMP-0042",
-          "note": "Desk setup"
-        }
+        {"action": "checked_out", "date": "2023-02-01", "by": "EMP-0042", "note": "Desk setup"}
       ]
     },
     "PH-3001": {
@@ -172,12 +130,7 @@
       "location": "Sales Floor 1",
       "repair_notes": null,
       "history": [
-        {
-          "action": "checked_out",
-          "date": "2024-03-01",
-          "by": "EMP-0115",
-          "note": "New employee onboarding"
-        }
+        {"action": "checked_out", "date": "2024-03-01", "by": "EMP-0115", "note": "New employee onboarding"}
       ]
     },
     "DK-4001": {
@@ -209,12 +162,7 @@
       "location": "IT Repair Bench",
       "repair_notes": "USB-C port not detecting devices. Sent to vendor.",
       "history": [
-        {
-          "action": "flagged_for_repair",
-          "date": "2025-02-01",
-          "by": "IT-ADMIN",
-          "note": "USB-C port not detecting devices"
-        }
+        {"action": "flagged_for_repair", "date": "2025-02-01", "by": "IT-ADMIN", "note": "USB-C port not detecting devices"}
       ]
     }
   },
