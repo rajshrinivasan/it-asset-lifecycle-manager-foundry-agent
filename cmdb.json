@@ -1,0 +1,222 @@
+{
+  "assets": {
+    "LT-1001": {
+      "asset_id": "LT-1001",
+      "type": "Laptop",
+      "make": "Dell",
+      "model": "Latitude 5540",
+      "serial": "DL5540-A9X21",
+      "purchased": "2022-03-15",
+      "warranty_expires": "2025-03-15",
+      "status": "checked_out",
+      "assigned_to": "Alice Chen",
+      "employee_id": "EMP-0201",
+      "location": "IT Store Room A",
+      "repair_notes": null,
+      "history": [
+        {
+          "action": "checked_out",
+          "date": "2026-03-30",
+          "by": "EMP-0201",
+          "note": "Checked out to Alice Chen"
+        }
+      ]
+    },
+    "LT-1002": {
+      "asset_id": "LT-1002",
+      "type": "Laptop",
+      "make": "Dell",
+      "model": "Latitude 5540",
+      "serial": "DL5540-B3K77",
+      "purchased": "2022-03-15",
+      "warranty_expires": "2025-03-15",
+      "status": "checked_out",
+      "assigned_to": "Sarah Mitchell",
+      "employee_id": "EMP-0042",
+      "location": "Engineering Floor 2",
+      "repair_notes": null,
+      "history": [
+        {
+          "action": "checked_out",
+          "date": "2022-04-01",
+          "by": "EMP-0042",
+          "note": "Initial assignment"
+        }
+      ]
+    },
+    "LT-1003": {
+      "asset_id": "LT-1003",
+      "type": "Laptop",
+      "make": "Apple",
+      "model": "MacBook Pro 14",
+      "serial": "MBP14-C8M02",
+      "purchased": "2023-06-10",
+      "warranty_expires": "2026-06-10",
+      "status": "in_repair",
+      "assigned_to": "James Okafor",
+      "employee_id": "EMP-0078",
+      "location": "IT Repair Bench",
+      "repair_notes": "Keyboard unresponsive on left side. Awaiting parts.",
+      "history": [
+        {
+          "action": "checked_out",
+          "date": "2023-07-01",
+          "by": "EMP-0078",
+          "note": "Initial assignment"
+        },
+        {
+          "action": "flagged_for_repair",
+          "date": "2025-01-10",
+          "by": "EMP-0078",
+          "note": "Keyboard unresponsive on left side"
+        }
+      ]
+    },
+    "LT-1004": {
+      "asset_id": "LT-1004",
+      "type": "Laptop",
+      "make": "Lenovo",
+      "model": "ThinkPad X1 Carbon",
+      "serial": "TPX1-D1P55",
+      "purchased": "2021-01-20",
+      "warranty_expires": "2024-01-20",
+      "status": "retired",
+      "assigned_to": null,
+      "employee_id": null,
+      "location": "IT Disposal Bin",
+      "repair_notes": "Battery swollen. Unsafe to use.",
+      "history": [
+        {
+          "action": "checked_out",
+          "date": "2021-02-01",
+          "by": "EMP-0011",
+          "note": "Initial assignment"
+        },
+        {
+          "action": "checked_in",
+          "date": "2024-02-01",
+          "by": "EMP-0011",
+          "note": "Returned at contract end"
+        },
+        {
+          "action": "retired",
+          "date": "2024-03-01",
+          "by": "IT-ADMIN",
+          "note": "Battery swollen. Unsafe to use."
+        }
+      ]
+    },
+    "MN-2001": {
+      "asset_id": "MN-2001",
+      "type": "Monitor",
+      "make": "LG",
+      "model": "27UK850-W 4K",
+      "serial": "LG27-E7T91",
+      "purchased": "2022-05-01",
+      "warranty_expires": "2025-05-01",
+      "status": "available",
+      "assigned_to": null,
+      "employee_id": null,
+      "location": "IT Store Room A",
+      "repair_notes": null,
+      "history": []
+    },
+    "MN-2002": {
+      "asset_id": "MN-2002",
+      "type": "Monitor",
+      "make": "Dell",
+      "model": "UltraSharp U2722D",
+      "serial": "DLU27-F2R34",
+      "purchased": "2023-01-15",
+      "warranty_expires": "2026-01-15",
+      "status": "checked_out",
+      "assigned_to": "Sarah Mitchell",
+      "employee_id": "EMP-0042",
+      "location": "Engineering Floor 2",
+      "repair_notes": null,
+      "history": [
+        {
+          "action": "checked_out",
+          "date": "2023-02-01",
+          "by": "EMP-0042",
+          "note": "Desk setup"
+        }
+      ]
+    },
+    "PH-3001": {
+      "asset_id": "PH-3001",
+      "type": "Mobile Phone",
+      "make": "Apple",
+      "model": "iPhone 15 Pro",
+      "serial": "IPH15-G6N08",
+      "purchased": "2024-01-10",
+      "warranty_expires": "2026-01-10",
+      "status": "available",
+      "assigned_to": null,
+      "employee_id": null,
+      "location": "IT Store Room B",
+      "repair_notes": null,
+      "history": []
+    },
+    "PH-3002": {
+      "asset_id": "PH-3002",
+      "type": "Mobile Phone",
+      "make": "Samsung",
+      "model": "Galaxy S24",
+      "serial": "SGS24-H9Q44",
+      "purchased": "2024-02-20",
+      "warranty_expires": "2026-02-20",
+      "status": "checked_out",
+      "assigned_to": "Priya Nair",
+      "employee_id": "EMP-0115",
+      "location": "Sales Floor 1",
+      "repair_notes": null,
+      "history": [
+        {
+          "action": "checked_out",
+          "date": "2024-03-01",
+          "by": "EMP-0115",
+          "note": "New employee onboarding"
+        }
+      ]
+    },
+    "DK-4001": {
+      "asset_id": "DK-4001",
+      "type": "Docking Station",
+      "make": "Dell",
+      "model": "WD22TB4 Thunderbolt 4",
+      "serial": "DLWD22-J3S67",
+      "purchased": "2023-03-01",
+      "warranty_expires": "2026-03-01",
+      "status": "available",
+      "assigned_to": null,
+      "employee_id": null,
+      "location": "IT Store Room A",
+      "repair_notes": null,
+      "history": []
+    },
+    "DK-4002": {
+      "asset_id": "DK-4002",
+      "type": "Docking Station",
+      "make": "CalDigit",
+      "model": "TS4 Thunderbolt 4",
+      "serial": "CDTS4-K5M12",
+      "purchased": "2023-08-15",
+      "warranty_expires": "2026-08-15",
+      "status": "in_repair",
+      "assigned_to": null,
+      "employee_id": null,
+      "location": "IT Repair Bench",
+      "repair_notes": "USB-C port not detecting devices. Sent to vendor.",
+      "history": [
+        {
+          "action": "flagged_for_repair",
+          "date": "2025-02-01",
+          "by": "IT-ADMIN",
+          "note": "USB-C port not detecting devices"
+        }
+      ]
+    }
+  },
+  "procurement_requests": []
+}
